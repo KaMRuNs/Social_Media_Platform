@@ -8,12 +8,10 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     },
 
-    /* Bundler mode */
+    /* Bundler Mode (for Vite) */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
